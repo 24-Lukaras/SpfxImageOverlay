@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "image-overlay-client-side-solution",
+    "id": "498a6604-6921-442d-9729-b36c16d1a9e1",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "image-overlay description"
+      },
+      "longDescription": {
+        "default": "image-overlay description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "image-overlay Feature",
+        "description": "The feature that activates elements of the image-overlay solution.",
+        "id": "17bbfcd1-5eaa-45d2-af83-2155afaff6bd",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/image-overlay.sppkg"
+  }
+}
